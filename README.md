@@ -7,7 +7,7 @@
 
 
 ## 소스코드
-[https://github.com/SGRsoft-Dev/mediaplus.demo.vpe.basic](https://github.com/SGRsoft-Dev/mediaplus.demo.vpe.basic)
+[https://github.com/SGRsoft-Dev/vpe.error.override.demo](https://github.com/SGRsoft-Dev/vpe.error.override.demo)
 
 
 *** 
