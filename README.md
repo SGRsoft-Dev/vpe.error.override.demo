@@ -1,8 +1,8 @@
 ## NAVER CLOUD PLATFORM Video Player Enhancement DEMO
 
-미디어플러스에서 제공하는 NAVERCLOUD VPE Player의 기본 코드
+미디어플러스에서 제공하는 NAVERCLOUD VPE Player의 에러 오버라이드 코드
 
-![](https://nnbkegvqsbcu5297614.cdn.ntruss.com/profile/202308/b3567d2fd1acd4a38efeafd99e2d121c.png)
+![](https://nnbkegvqsbcu5297614.cdn.ntruss.com/profile/202309/ba78166ae1cfef93a87badcdd0c98c37.png)
 
 
 
