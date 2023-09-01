@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Ncloud VPE Demo</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://player.vpe.naverncp.com/ncplayer.1.1.1.dev.beta.js?access_key=17e49e099ea78c1f1ae159fc1647316c"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+
+    <div class="playerWarp">
+        <div class="playerArea relative">
+            <!-- 에러 모달-->
+            <div class="absolute top-0 left-0 z-[9999] w-full h-full flex justify-center items-center backdrop-blur hidden" id="errorDiv">
+                <div class="bg-black text-center py-4 rounded px-10">
+                    <div>
+                        <i class="ph-fill text-3xl ph-warning text-white"></i>
+                    </div>
+                    <div class="text-[12px] mt-2 text-white">
+                        동영상 재생중 에러가 발생하였습니다.
+                    </div>
+                    <div class="text-[11px] mt-1 text-white" id="errorInfo"></div>
+                    <div class="mt-5">
+                        <a href="#" class="text-white text-[11px]">고객센터에 문의하기<br>(1588-0000)</a>
+                    </div>
+                </div>
+            </div>
+            <!--에러모달 끝-->
+            <div class="player" id="player"></div>
+        </div>
+    </div>
+
+    <div class="content pt-5 ">
+
+        <div class="space-y-3">
+            <h1>
+                <strong>해당 데모는 Video Player Enhancement ver 1.1.1 이상 부터 지원됩니다.</strong>
+            </h1>
+            <div class="rounded bg-gray-100 p-3 text-sm">
+                개발자 배타 : https://player.vpe.naverncp.com/ncplayer.1.1.1.dev.beta.js
+            </div>
+
+
+
+            <div class="text-center">
+                <button type="button" class="rounded-md bg-black p-2 text-white text-sm px-4" onclick="player.next()">에러 발생 테스트</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script>
+
+
+    </script>
+    <script src="demo.js"></script>
+</body>
+</html>
