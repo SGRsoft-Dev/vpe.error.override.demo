@@ -19,10 +19,14 @@
 ***
 
 ## 제한사항
+- Video Player Enhancement SDK는 v1.1.1 이상 버전이 필요합니다.
+- 현재 데모코드에 사용된 필수 요소들은 개발자 로컬 테스트에서만 동작합니다. (http://localhost:3000)
 
-현재 데모코드에 사용된 필수 요소들은 개발자 로컬 테스트에서만 동작합니다. (http://localhost:3000)
+- 실제 서비스에서는 동작하지 않습니다.
 
-네이버클라우드 플랫폼 Video Player Enhancement 유료 라이선스가 필요합니다.
+- 네이버클라우드 플랫폼 Video Player Enhancement 유료 라이선스가 필요합니다.
+
+
 ***
 
 
@@ -71,6 +75,25 @@ $ npm install
 $ npm run dev
 ```
 
+```javascript
+window.player = new ncplayer('player',{
+        playlist:[
+            {
+                file:'https://fsxikvammvwv14470411.cdn.ntruss.com/hls/9N5-iJ4f9tdzE6D708PTmg__/vod/j5IXBfIJ83893893_,1080,720,480,p.mp4.smil/master.m3u8',
+            }
+        ],
+        autostart:true,
+     
+        override:{
+            error(err){
+                //플레이어 에러를 오버라이드함
+                console.log(err);
+                document.getElementById('errorDiv').classList.remove('hidden');
+                document.getElementById('errorInfo').innerText = `[${err.error_code}] `+err.error_txt;
+            }
+        }
+    })
+```
 
 ***
 
