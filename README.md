@@ -1,6 +1,6 @@
 ## NAVER CLOUD PLATFORM Video Player Enhancement DEMO
 
-미디어플러스에서 제공하는 NAVERCLOUD VPE Player의 에러 오버라이드 코드
+VIDEO24에서 제공하는 NAVERCLOUD VPE Player의 에러 오버라이드 코드
 
 ![](https://nnbkegvqsbcu5297614.cdn.ntruss.com/profile/202309/ba78166ae1cfef93a87badcdd0c98c37.png)
 
@@ -110,9 +110,8 @@ SGRSOFT 개발팀  : dev@sgrsoft.com
 SGRSOFT를 통하여 네이버클라우드 플랫폼 크래딧을 지원 받을 수 있습니다. (최대 300만원)
 
 
-미디어플러스 웹사이트 :
-[https://mediaplus.co.kr/](https://mediaplus.co.kr/)
+VIDEO24 웹사이트 :
+[https://video24.app/](https://video24.app/)
 
-![](https://nnbkegvqsbcu5297614.cdn.ntruss.com/profile/202308/851b6ea05f1fcc1cb827d841ca32346d.png)
-
+![](https://nnbkegvqsbcu5297614.cdn.ntruss.com/profile/202310/4f8b9055fd11fe2a1595586c52a7ec29.png)
 
